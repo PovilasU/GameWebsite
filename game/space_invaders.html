@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/mystyles.css">
+    <style>
+
+    </style>
+</head>
+<body>
+<!-- play shooting sound   -->
+<audio id="shoot" hidden > <source src="sounds/shoot.wav" type="audio/mpeg">
+</audio>
+
+<!-- play shooting sound   -->
+<audio id="explosion" hidden > <source src="sounds/explosion.wav" type="audio/mpeg">
+</audio>
+
+
+
+
+</div>
+<div id="header">
+    <h1>Title</h1>
+    <div id="score" align="right">scores: </div>
+    <div  id="level" align="right">level:  </div>
+    <div id="lives" align="right">lives: </div>
+    <button style="alignment: center" id="header-content" onclick="saveScores()">Save Scores</button>
+
+
+    <!-- Game div -->
+    <div id="gameFrame" align="right">
+        <!-- Backgroud div -->
+        <div class='js-fade fade-in is-paused' id="background"></div>
+        <!-- Creating hero div -->
+        <div id="hero"></div>
+        <!-- Creating hero Gun div -->
+        <div id="heroGun"></div>
+        <!-- Creating laser div -->
+        <div id="laser"></div>
+        <!-- Game over div -->
+        <div STYLE="left: 200px" id="gameover"><h3>GAME OVER</h3></div>
+    </div>
+
+</div>
+
+<script type="text/JavaScript" src="js/main.js"></script>
+<script type="text/JavaScript" src="js/gamescript.js"></script>
+</body>
+</html>

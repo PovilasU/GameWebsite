@@ -1,0 +1,87 @@
+body{
+    width: auto;
+    margin: 20px;
+  }
+
+
+
+    /*#retro_player {*/
+        /*width: 200px;*/
+        /*height: 200px;*/
+        /*position: absolute;*/
+        /*left: 125px;*/
+        /*background: url(../images/retro_player.gif) no-repeat;*/
+        /*top: 500px;*/
+       /*}*/
+
+
+    .navigation{
+        text-align: center;
+        background-color: black;
+        padding: 10px;
+    }
+    a{
+        margin: 10px;
+        color: white;
+    }
+    .selected {
+        width: 800px;
+        background-color: maroon;
+        padding: 10px;
+    }
+
+    #container {
+        border-left: 1px solid #000000;
+        border-right: 1px solid #000000;
+        width: 100%;
+        max-width: 800px;
+        margin: 0px auto;
+    }
+
+    #header {
+      position:relative;
+    }
+
+    #header img {
+      width:100%;
+      height:auto;
+    }
+
+    #header #icon_area {
+      position:absolute;
+      right:10px;
+      top:10px;
+      width:10%;
+      height:10%;
+    }
+
+    #main   {
+        background-color: red;
+    }
+
+    /*giving attributes to  mainBody div*/
+    .main_body
+    {
+        text-align: center;
+        background-color: black;
+        height: 500px;
+        width: 100%;
+        color: white;
+        padding-top: 10px;
+        min-height:500px;
+
+
+    }
+
+    .footer /*giving attributes to footer div*/
+     {
+        text-align: center;
+        background-color: red;
+        height: 40px;
+        width: 100%;
+        color: white;
+        padding-top: 10px;
+
+    }
+
+

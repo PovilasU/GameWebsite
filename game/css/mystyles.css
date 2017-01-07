@@ -1,0 +1,116 @@
+/*giving attributes to hero div*/
+
+#hero {	
+	width: 50px;
+	height: 50px;
+	position: absolute; /* specify where it is (default right up corner)*/
+	background: url(../images/ship.png) no-repeat;
+}
+
+
+#background {
+    width: 500px;
+	height: 500px;
+	position: absolute;
+	left: 0px;
+	background: url(../images/blackhole.gif) no-repeat; 
+	top: 0px;
+   }
+#gameFrame {
+    width: 500px;
+	height: 500px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+   }
+
+
+#laser {
+	background: yellow;
+	width: 3px;
+	height: 10px;
+	position: absolute;
+}
+/*Enemy class*/  
+.enemy { 
+	background: pink;
+	width: 30px; 
+	height: 30px;
+	position: absolute;
+	background: url(../images/alienwhite.png) no-repeat;
+}
+
+.enemyLevelTwo { 
+	background: pink;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	background: url(../images/aliengreen.png) no-repeat;
+}
+.enemyLevelThree { 
+	background: pink;
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	background: url(../images/aliencolorful.png) no-repeat;
+}
+/*Enemy class*/
+.enemyPart { 
+	background: blue;
+	width: 10px;
+	height: 55px;
+	position: absolute;
+}
+
+	/*Game scoring*/
+#score {
+	color: red;
+	font-size: 16pt;
+	text-align: right;
+
+
+}
+#level {
+	color: red;
+	font-size: 16pt;
+
+
+}
+
+
+#lives {
+	color: red;
+	font-size: 16pt;
+
+}
+
+
+#gameover{
+	color: yellow;
+	font-size: 16px;
+	position: absolute;
+	left: 150px;
+	top: 50px;
+	visibility: hidden;
+
+}
+
+#header {
+	min-height: 150px;
+	width:580px;
+	height:550px;
+	max-width:580px;
+	max-height:550px;
+	margin: auto;
+	position: fixed;
+	top: 0;
+	left: 0;
+	background-color: black;
+}
+#header-content {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+
+
+}

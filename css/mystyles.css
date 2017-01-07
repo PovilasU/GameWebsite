@@ -1,0 +1,180 @@
+* {
+    border: 0;
+    padding: 0;
+    margin: 0;
+}
+
+#wrapper {
+    width: 900px;
+    margin: 0 auto;
+    border: 2px solid #ccc;
+}
+
+    #header {
+        height: 250px;
+        background-color: #ccc;
+        background: url(../images/invaders_logo.png) no-repeat;
+    }
+
+    #nav {
+        /*height:50px;*/
+        background-color: #777;
+    }
+
+        #nav ul {
+            list-style-type: none;
+        }
+
+            #nav ul li {
+                width: auto;
+                float: left;
+                border-right: 1px solid #333;
+            }
+
+            #nav ul li a {
+                display: block;
+                padding: 10px 20px;
+                color: #fff;
+                font-family: Arial, sans-serif;
+                font-size: 18px;
+                font-weight: bold;
+                text-decoration: none;
+            }
+
+            #nav ul li a:hover {
+                background-color: #333;
+                color: #eee;
+            }
+
+    #content {
+    }
+
+
+        #main_content {
+            color: #90bd6d;
+            font-family: Arial, sans-serif;
+            text-align: left;
+            font-size: 20px;
+            font-weight: bold;
+            width: 580px;
+            height:550px;
+            float: left;
+            min-height: 550px;
+            max-height: 550px;
+            min-width:580px;
+            max-width:580px;
+            /*background-color: grey;*/
+            background: url(../images/content_background.png) no-repeat;
+            /*background: url(../game/images/ratas.gif) no-repeat;*/
+        }
+            #inside_main_content{
+                position: relative;
+                top: 40%;
+                left: 50%;
+                transform: translateX(-50%) translateY(-50%);
+                width: 550px;
+                text-align: left;
+                vertical-align: middle;
+                line-height: 30px;
+            }
+            #registration {
+                position: relative;
+                top: 30%;
+                left: 50%;
+                transform: translateX(-50%) translateY(-50%);
+                width: 550px;
+                text-align: left;
+                vertical-align: middle;
+            }
+#inside_main_content2{
+    position: relative;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    width: 550px;
+    text-align: left;
+    vertical-align: middle;
+    /*line-height: 30px;*/
+}
+
+        #sidebar_bottom {
+            width: 320px;
+            background-color: indianred;
+            float: right;
+            color: #66bd00;
+            font-family: Arial, sans-serif;
+            font-size: 25px;
+            font-weight: bold;
+            min-height: 226px;
+            max-height: 230px;
+            background: url(../game/images/ratas.gif) no-repeat;
+        }
+
+        #sidebar_top {
+            width: 320px;
+            background-color: black;
+            float: right;
+            min-height: 320px;
+
+            /*550-320=230*/
+
+        }
+            #sidebar_background img{
+                width:320px;
+                height:320px;
+            }
+
+    #footer {
+
+        height: 75px;
+        background-color: #ccc;
+        background: url(../images/invaders_footer_with_name.png) no-repeat;
+        color: #fff;
+        font-family: Arial, sans-serif;
+        font-size: 16px;
+        font-weight: bold;
+        text-align: center;
+
+    }
+    #footer_paragraph{
+        color: #fff;
+        position: absolute;
+        top: 870px;
+        left: 790px;
+        /*text-align: center;*/
+        /*bottom: 0;*/
+    }
+
+/* Creating class clear*/
+.clear {
+    clear: both;
+}
+        #high_scores{
+            margin: 50px auto;
+            color: #90bd6d;
+        }
+        #score_table{
+            font-family: Arial, sans-serif;
+            font-size: 18px;
+            font-weight: bold;
+            text-align: center;
+        }
+            #score_table table {
+                margin: 50px auto;
+            }
+
+
+
+        #extra_content{
+            font-size:12px;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            color: red;
+        }
+        #sidebar_bottom_about_you{
+            font-size:12px;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            color: red;
+        }
+
